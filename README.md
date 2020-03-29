@@ -11,5 +11,8 @@ In order to use this configuration, one also has to install the peer dependencie
 
 ## Changelog
 
+### 1.1.0
+* In order to prevent a React version warning from appearing when not using React, it's version has been fixed to `latest`.
+
 ### 1.0.0
 * Initial release

@@ -10,6 +10,11 @@ module.exports = {
 		'prettier/react',
 		'./rules',
 	],
+	settings: {
+		react: {
+			version: 'latest',
+		},
+	},
 	overrides: [
 		{
 			files: ['*.ts', '*.tsx'],
@@ -21,6 +26,9 @@ module.exports = {
 			settings: {
 				'import/parsers': {
 					'@typescript-eslint/parser': ['.ts', '.tsx'],
+				},
+				react: {
+					version: 'latest',
 				},
 			},
 			extends: [

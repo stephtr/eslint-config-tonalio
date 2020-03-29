@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-tonalio",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "A custom eslint config supporting TypeScript, React and JSON.",
 	"repository": "https://github.com/stephtr/eslint-config-tonalio.git",
 	"author": "Stephan Troyer",
