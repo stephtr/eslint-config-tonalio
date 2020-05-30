@@ -12,6 +12,11 @@ In order to use this configuration, one also has to install the peer dependencie
 
 ## Changelog
 
+### 2.0.4
+
+-   Disable `@typescript-eslint/explicit-module-boundary-types` for React files
+-   Enable PascalCasing e.g. for React functional components
+
 ### 2.0.3
 
 -   Relax `@typescript-eslint/naming-convention` rule

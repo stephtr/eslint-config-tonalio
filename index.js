@@ -45,6 +45,12 @@ module.exports = {
 				'consistent-return': 'off',
 			},
 		},
+		{
+			files: ['*.jsx', '*.tsx'],
+			rules: {
+				'@typescript-eslint/explicit-module-boundary-types': 'off',
+			},
+		},
 	],
 	reportUnusedDisableDirectives: true,
 };
