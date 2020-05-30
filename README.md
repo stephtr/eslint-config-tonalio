@@ -12,6 +12,15 @@ In order to use this configuration, one also has to install the peer dependencie
 
 ## Changelog
 
+### 2.0.2
+
+-   Fix `naming-convention`
+-   Disable `@typescript-eslint/no-unsafe-*` rules
+
+### 2.0.1
+
+-   Fix not existing `camelcase` rule
+
 ### 2.0.0
 
 -   Bump `typescript-eslint` to v3, which drops support for Node v8 and TypeScript v3.2
