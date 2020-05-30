@@ -12,9 +12,13 @@ In order to use this configuration, one also has to install the peer dependencie
 
 ## Changelog
 
+### 2.0.3
+
+-   Relax `@typescript-eslint/naming-convention` rule
+
 ### 2.0.2
 
--   Fix `naming-convention`
+-   Fix `@typescript-eslint/naming-convention`
 -   Disable `@typescript-eslint/no-unsafe-*` rules
 
 ### 2.0.1

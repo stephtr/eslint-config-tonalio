@@ -45,11 +45,15 @@ module.exports = {
 			},
 			{
 				selector: 'variable',
-				format: ['camelCase', 'UPPER_CASE'],
+				format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
 			},
 			{
 				selector: 'parameter',
 				format: ['camelCase'],
+			},
+			{
+				selector: 'property',
+				format: null,
 			},
 			{
 				selector: 'typeLike',
