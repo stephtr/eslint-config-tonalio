@@ -12,6 +12,10 @@ In order to use this configuration, one also has to install the peer dependencie
 
 ## Changelog
 
+### 2.0.5
+
+-   Disable `@typescript-eslint/naming-convention` for unused `_` parameters
+
 ### 2.0.4
 
 -   Disable `@typescript-eslint/explicit-module-boundary-types` for React files

@@ -42,6 +42,10 @@ module.exports = {
 			{
 				selector: 'default',
 				format: ['camelCase'],
+				filter: {
+					regex: '^_+$',
+					match: false,
+				},
 			},
 			{
 				selector: 'function',
@@ -54,6 +58,10 @@ module.exports = {
 			{
 				selector: 'parameter',
 				format: ['camelCase'],
+				filter: {
+					regex: '^_+$',
+					match: false,
+				},
 			},
 			{
 				selector: 'property',
