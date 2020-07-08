@@ -12,6 +12,10 @@ In order to use this configuration, one also has to install the peer dependencie
 
 ## Changelog
 
+### 3.0.0
+
+-   Switch enumMember casing from camelCase to PascalCase
+
 ### 2.0.5
 
 -   Disable `@typescript-eslint/naming-convention` for unused `_` parameters
