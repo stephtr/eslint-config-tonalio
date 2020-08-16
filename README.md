@@ -12,6 +12,10 @@ In order to use this configuration, one also has to install the peer dependencie
 
 ## Changelog
 
+### 4.0.0
+
+-   Updated eslint-config-airbnb-typescript to v9, eslint to v7 and prettier to v2
+
 ### 3.0.0
 
 -   Switch enumMember casing from camelCase to PascalCase
