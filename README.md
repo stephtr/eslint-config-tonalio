@@ -12,6 +12,10 @@ In order to use this configuration, one also has to install the peer dependencie
 
 ## Changelog
 
+### 5.0.1
+
+-   remove react default prop requirement
+
 ### 5.0.0
 
 -   Bump `@typescript-eslint` to support TypeScript v4, updated `eslint-config-airbnb-typescript` to v12

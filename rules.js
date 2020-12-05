@@ -35,6 +35,7 @@ module.exports = {
 		'@typescript-eslint/no-var-requires': 'off',
 		'dot-notation': 'off',
 		'class-methods-use-this': 'off',
+		'react/require-default-props': [0],
 		'@typescript-eslint/naming-convention': [
 			'error',
 			{
