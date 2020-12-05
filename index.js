@@ -1,39 +1,13 @@
 module.exports = {
-	plugins: ['eslint-comments'],
-	extends: [
-		'airbnb',
-		'airbnb/hooks',
-		'eslint:recommended',
-		'plugin:eslint-comments/recommended',
-		'plugin:json/recommended',
-		'plugin:prettier/recommended',
-		'prettier/react',
-		'./rules',
-	],
-	settings: {
-		react: {
-			version: 'latest',
-		},
-	},
 	overrides: [
 		{
-			files: ['*.ts', '*.tsx'],
-			parser: '@typescript-eslint/parser',
-			plugins: ['@typescript-eslint'],
-			parserOptions: {
-				project: './tsconfig.json',
-			},
-			settings: {
-				'import/parsers': {
-					'@typescript-eslint/parser': ['.ts', '.tsx'],
-				},
-				react: {
-					version: 'latest',
-				},
-			},
+			files: ['*.js', '*.ts', '*.jsx', '*.tsx'],
+			plugins: ['@typescript-eslint', 'eslint-comments'],
 			extends: [
 				'airbnb-typescript',
 				'airbnb/hooks',
+				'eslint:recommended',
+				'plugin:eslint-comments/recommended',
 				'plugin:@typescript-eslint/recommended',
 				'plugin:@typescript-eslint/recommended-requiring-type-checking',
 				'plugin:prettier/recommended',
@@ -41,6 +15,21 @@ module.exports = {
 				'prettier/@typescript-eslint',
 				'./rules',
 			],
+			parserOptions: {
+				project: './tsconfig.json',
+			},
+			settings: {
+				react: {
+					version: 'latest',
+				},
+			},
+		},
+		{
+			files: ['*.json'],
+			extends: ['plugin:json/recommended', 'plugin:prettier/recommended'],
+		},
+		{
+			files: ['*.ts', '*.tsx'],
 			rules: {
 				'consistent-return': 'off',
 			},

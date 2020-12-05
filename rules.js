@@ -35,8 +35,6 @@ module.exports = {
 		'@typescript-eslint/no-var-requires': 'off',
 		'dot-notation': 'off',
 		'class-methods-use-this': 'off',
-		// until https://github.com/iamturns/eslint-config-airbnb-typescript/issues/95 is released:
-		'@typescript-eslint/camelcase': 'off',
 		'@typescript-eslint/naming-convention': [
 			'error',
 			{
