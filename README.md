@@ -12,6 +12,10 @@ In order to use this configuration, one also has to install the peer dependencie
 
 ## Changelog
 
+### 5.1.0
+
+-   Initial support for svelte
+
 ### 5.0.3
 
 -   Bump `eslint-plugin-json` and `eslint-config-prettier`
