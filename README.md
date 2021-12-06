@@ -12,6 +12,10 @@ In order to use this configuration, one also has to install the peer dependencie
 
 ## Changelog
 
+### 5.1.1
+
+-   Enable TypeScript in Svelte
+
 ### 5.1.0
 
 -   Initial support for svelte

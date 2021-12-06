@@ -19,6 +19,7 @@ module.exports = {
 		'import/prefer-default-export': 'off',
 		'prefer-const': ['error', { destructuring: 'all' }],
 		'no-param-reassign': 'off',
+		'no-promise-executor-return': 'off',
 		'no-plusplus': 'off',
 		'import/no-unresolved': [
 			'error',
@@ -36,6 +37,7 @@ module.exports = {
 		'dot-notation': 'off',
 		'class-methods-use-this': 'off',
 		'react/require-default-props': [0],
+		'react/function-component-definition': 'off',
 		'@typescript-eslint/naming-convention': [
 			'error',
 			{

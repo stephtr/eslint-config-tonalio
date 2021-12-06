@@ -43,6 +43,7 @@ module.exports = {
 			],
 			parserOptions: {
 				project: './tsconfig.json',
+				extraFileExtensions: ['.svelte'],
 			},
 			settings: {
 				'svelte3/typescript': true,
