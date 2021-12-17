@@ -48,6 +48,9 @@ module.exports = {
 			settings: {
 				'svelte3/typescript': true,
 			},
+			rules: {
+				'import/no-mutable-exports': 'off',
+			},
 		},
 		{
 			files: ['*.json'],
