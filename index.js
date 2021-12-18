@@ -50,6 +50,7 @@ module.exports = {
 			},
 			rules: {
 				'import/no-mutable-exports': 'off',
+				'import/no-unresolved': [2, { ignore: ['^\\$lib'] }],
 			},
 		},
 		{
