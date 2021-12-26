@@ -12,7 +12,7 @@ In order to use this configuration, one also has to install the peer dependencie
 
 ## Changelog
 
-### 5.1.2 + 5.1.3
+### 5.1.2 - 5.1.4
 
 -   Improve Svelte & SvelteKit rules
 
