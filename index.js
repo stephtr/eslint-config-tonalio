@@ -51,6 +51,7 @@ module.exports = {
 			rules: {
 				'import/no-mutable-exports': 'off',
 				'import/no-unresolved': [2, { ignore: ['^\\$lib'] }],
+				'no-undef': 'off',
 			},
 		},
 		{
@@ -61,6 +62,7 @@ module.exports = {
 			files: ['*.ts', '*.tsx'],
 			rules: {
 				'consistent-return': 'off',
+				'no-undef': 'off',
 			},
 		},
 		{
