@@ -12,6 +12,10 @@ In order to use this configuration, one also has to install the peer dependencie
 
 ## Changelog
 
+### 5.1.5
+
+-   disable `@typescript-eslint/no-misused-promises` for void returns
+
 ### 5.1.2 - 5.1.4
 
 -   Improve Svelte & SvelteKit rules
