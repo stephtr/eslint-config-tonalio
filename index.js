@@ -52,6 +52,7 @@ module.exports = {
 				'import/no-mutable-exports': 'off',
 				'import/no-unresolved': [2, { ignore: ['^\\$lib'] }],
 				'no-undef': 'off',
+				'import/first': 'off',
 			},
 		},
 		{
