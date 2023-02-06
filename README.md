@@ -12,6 +12,10 @@ In order to use this configuration, one also has to install the peer dependencie
 
 ## Changelog
 
+### 6.0.0
+
+-   Updated dependencies (`eslint-config-airbnb-typescript@17.0.0`, `eslint-import-resolver-typescript@3.5.3`, `eslint-plugin-svelte3@4.0.0`)
+
 ### 5.1.2 + 5.1.3
 
 -   Improve Svelte & SvelteKit rules
