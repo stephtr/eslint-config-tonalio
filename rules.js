@@ -38,6 +38,7 @@ module.exports = {
 		'class-methods-use-this': 'off',
 		'react/require-default-props': [0],
 		'react/function-component-definition': 'off',
+		'react/react-in-jsx-scope': 'off',
 		'@typescript-eslint/naming-convention': [
 			'error',
 			{

@@ -12,6 +12,10 @@ In order to use this configuration, one also has to install the peer dependencie
 
 ## Changelog
 
+### 6.1.0
+
+-   Disable `react/react-in-jsx-scope` since it's not necessary anymore in NextJS & others
+
 ### 6.0.0
 
 -   Updated dependencies (`eslint-config-airbnb-typescript@17.0.0`, `eslint-import-resolver-typescript@3.5.3`, `eslint-plugin-svelte3@4.0.0`)
