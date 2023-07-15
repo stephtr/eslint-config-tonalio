@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-tonalio",
-	"version": "6.1.0",
+	"version": "7.0.0",
 	"description": "A custom eslint config supporting TypeScript, React and JSON.",
 	"repository": "https://github.com/stephtr/eslint-config-tonalio.git",
 	"author": "Stephan Troyer",
@@ -12,31 +12,32 @@
 		"lint"
 	],
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^5.5.0",
-		"@typescript-eslint/parser": "^5.5.0",
-		"eslint-config-airbnb": "^19.0.2",
+		"@typescript-eslint/eslint-plugin": "^6.0.0",
+		"@typescript-eslint/parser": "^6.0.0",
+		"eslint-config-airbnb": "^19.0.4",
 		"eslint-config-airbnb-base": "^15.0.0",
-		"eslint-config-airbnb-typescript": "^17.0.0",
-		"eslint-config-prettier": "^8.3.0",
-		"eslint-import-resolver-typescript": "^3.5.3",
+		"eslint-config-airbnb-typescript": "^17.1.0",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-import-resolver-typescript": "^3.5.5",
 		"eslint-plugin-eslint-comments": "^3.2.0",
-		"eslint-plugin-import": "^2.25.3",
+		"eslint-plugin-import": "^2.27.5",
 		"eslint-plugin-json": "^3.1.0",
-		"eslint-plugin-jsx-a11y": "^6.5.1",
-		"eslint-plugin-prettier": "^4.0.0",
-		"eslint-plugin-react": "^7.27.1",
-		"eslint-plugin-react-hooks": "^4.3.0",
+		"eslint-plugin-jsx-a11y": "^6.7.1",
+		"eslint-plugin-prettier": "^5.0.0",
+		"eslint-plugin-react": "^7.32.2",
+		"eslint-plugin-react-hooks": "^4.6.0",
 		"eslint-plugin-svelte3": "^4.0.0"
 	},
 	"peerDependencies": {
-		"eslint": ">=7.32.0",
-		"prettier": ">=2.0.0",
-		"typescript": ">=4.0.0"
+		"eslint": ">=8.0.0",
+		"prettier": ">=3.0.0",
+		"typescript": ">=5.0.0"
 	},
 	"devDependencies": {
-		"eslint": "^8.4.0",
+		"eslint": "^8.45.0",
 		"pre-commit": "^1.2.2",
-		"prettier": "^2.5.1",
-		"typescript": "^4.5.2"
-	}
+		"prettier": "^3.0.0",
+		"typescript": "^5.1.6"
+	},
+	"packageManager": "pnpm@8"
 }

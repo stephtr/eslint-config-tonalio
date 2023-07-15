@@ -12,6 +12,10 @@ In order to use this configuration, one also has to install the peer dependencie
 
 ## Changelog
 
+### 7.0.0
+
+-   Updated all dependencies, most notably `@typescript-eslint` to v6 and `prettier` to v3
+
 ### 6.1.0
 
 -   Disable `react/react-in-jsx-scope` since it's not necessary anymore in NextJS & others
