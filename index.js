@@ -64,6 +64,7 @@ module.exports = {
 			rules: {
 				'consistent-return': 'off',
 				'no-undef': 'off',
+				'react/prop-types': 'off',
 			},
 		},
 		{
