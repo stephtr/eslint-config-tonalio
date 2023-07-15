@@ -8,7 +8,23 @@ In addition, a [few rules](./rules.js) have been customized.
 
 ## Usage
 
-In order to use this configuration, one also has to install the peer dependencies `eslint`, `prettier` and `typescript`. After installing `eslint-config-tonalio`, adding `"extends": "tonalio"` to your eslint configuration file should be sufficient. You may also want to add a prettier config.
+In order to use this configuration, one also has to install the peer dependencies `eslint`, `prettier` and `typescript`. After installing `eslint-config-tonalio`, adding `"extends": "tonalio"` to your eslint configuration file should be sufficient. You may also want to add a prettier config file.
+
+### Usage with Next.JS
+
+Next.JS provides some additional linting rules, which are not included in this configuration. It is therefore recommended to change your eslint config to include:
+
+```
+{
+	"extends": [
+		"tonalio",
+		"plugin:@next/next/recommended",
+		"plugin:@next/next/core-web-vitals"
+	]
+}
+```
+
+You need to install the package `@next/eslint-plugin-next`.
 
 ## Changelog
 
