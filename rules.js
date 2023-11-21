@@ -54,6 +54,10 @@ module.exports = {
 				format: ['camelCase', 'PascalCase'],
 			},
 			{
+			  selector: 'import',
+			  format: ['camelCase', 'PascalCase'],
+			},
+			{
 				selector: 'variable',
 				format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
 			},
