@@ -34,6 +34,7 @@ module.exports = {
 				'plugin:prettier/recommended',
 				'prettier',
 				'./rules',
+				'./typescript-rules.js',
 			],
 			parserOptions: {
 				project: './tsconfig.json',
