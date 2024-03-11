@@ -1,7 +1,26 @@
 module.exports = {
 	overrides: [
 		{
-			files: ['*.js', '*.ts', '*.jsx', '*.tsx'],
+			files: ['*.js', '*.jsx'],
+			plugins: ['eslint-comments'],
+			extends: [
+				'airbnb',
+				'airbnb/hooks',
+				'eslint:recommended',
+				'plugin:import/recommended',
+				'plugin:eslint-comments/recommended',
+				'plugin:prettier/recommended',
+				'prettier',
+				'./rules',
+			],
+			settings: {
+				react: {
+					version: 'detect',
+				},
+			},
+		},
+		{
+			files: ['*.ts', '*.tsx'],
 			plugins: ['@typescript-eslint', 'eslint-comments'],
 			extends: [
 				'airbnb',
